@@ -1,0 +1,26 @@
+Hardware Used
+----------------------------
+Ulra sonic (HC SR04)       
+Soil Moisture Sensor
+Water Droplet Sensor  
+DHT11                  
+Tilt Sensor             
+MPU6050
+L298N
+Servo Motor
+DC Motor
+Pot(10k)
+led(5mm)
+Resistors(560 ohms)
+Push Button
+Jumpers Male-Female
+Jumpers Female-Female
+Jumpers Male-Male
+----------------------------
+
+
+Software Used
+----------------------------
+Arduino Ide
+Fritzing
+----------------------------

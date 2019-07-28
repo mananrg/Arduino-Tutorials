@@ -1,0 +1,25 @@
+﻿var count_words = countWords();
+function countWords() {
+    var paragraphs = document.getElementsByTagName("p");
+    var lists = document.getElementsByTagName("li");
+    var tables = document.getElementsByTagName("td");
+
+    var count1 = 0;
+    var count2 = 0;
+    var count3 = 0;
+
+    for (var i = 0; i < paragraphs.length; i++) {
+        // Split the innerHtml of the current paragraph to count the words.
+        count1 += paragraphs[i].innerHTML.split(' ').length;
+    }
+    for (var ii = 0; ii < lists.length; ii++) {
+        count2 += lists[ii].innerHTML.split(' ').length;
+    }
+    for (var iii = 0; iii < tables.length; iii++) {
+        count3 += tables[iii].innerHTML.split(' ').length;
+    }
+
+    var total_count = count1 + count2 + count3;
+    return total_count;
+}
+document.getElementById("read_time").innerHTML = " - " + Math.round(count_words / 230) + " min read";

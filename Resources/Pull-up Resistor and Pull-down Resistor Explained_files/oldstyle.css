@@ -1,0 +1,55 @@
+/*
+Theme Name:     Electronics Tutorials Twitter Bootstrap
+Template:       Old Style css
+Version:        1
+*/
+img{border:none;}
+p.cntr{padding:10px 0 10px 0;}
+.ntxt{font-size:18px; color:#414143; text-align:center; text-decoration:none;}
+.mtxt{font-size:20px; color:#414143; text-align:center; text-decoration:none;}
+.otxt{font-size:16px; color:#414143; text-align:center; text-decoration:overline;}
+.ptxt{font-size:18px; color:#414143; text-align:center; text-decoration:none;}
+.gtxt{font-size:18px; color:#414143; text-align:center; text-decoration:none;}
+.ltxt{font-size:22px; color:#414143; text-align:center; text-decoration:none;}
+.tentxt{font-size:16px; line-height:1.5em; text-align:left; font-weight:normal; text-decoration:none;}
+.magtxt{font-size:16px; color:#414143;}
+.verdtxt{font-family:verdana;}
+.examtxt{font-size:18px; color:#414143; text-align:left; text-decoration:underline;}
+.litxt{font-size:11pt; color:#414143; text-align:left; text-decoration:none;}
+sup {position:relative; bottom:0.7em; vertical-align:baseline;}
+sub {position:relative; bottom:-0.3em; vertical-align:baseline;}
+.bottomspace{line-height:16px; width:100%; margin:0px; padding:0px;}
+div.equation{border:solid 1px #c8c8f5; background:#fff8c6; padding:16px; text-align:center; margin:20px auto;}
+ul.pointslist{margin:15px; padding:0px 0px 6px 0px;}
+ul.pointslist li{list-style-type:none; margin:5px; padding:0px; font-size:1.1em; text-align:left;}
+ul.pointslist li.sqr{list-style-type:square; color:#555;}
+ul.pointslist li.adv{list-style-type:none; background:url(../img/tick.png) no-repeat 0% 10%; margin:5px; padding:0px 0px 0px 24px;}
+ul.pointslist li.disadv{list-style-type:none; background:url(../img/cross.png) no-repeat 0% 10%; margin:5px; padding:0px 0px 0px 24px;}
+ul.list{margin:15px;}
+ul.list li{list-style-type:none; line-height:1.5em; font-size:1.1em; text-align:left;}
+ul.list li ul li{margin:6px 0px; padding:12px 12px 6px 10px; border:1px solid #ddd; background-color:#fcfcfc;}
+div.logiclist{width:500px; margin-left:auto; margin-right:auto; padding-top:10px;}
+div.ttllist, div.cmoslist{width:200px; text-align:left;}
+div.ttllist span, div.cmoslist span{font-size:14px; color:#5078b4; text-decoration:underline;}
+div.ttllist{float:left;}
+div.cmoslist{float:right;}
+div.clearlist {height:0; font-size:1px; margin:0; padding:0; line-height:0; clear:both;}
+div.top{line-height:1.2em; text-decoration:underline;}
+div.bottom{line-height:1.2em; text-decoration:none;}
+span.exclusive{display:inline; background:transparent url('../img/exclusive.gif') no-repeat center center; padding:0px; font-size:1.1em;}
+.openimg{float:right; margin:10px 6px 6px 20px; padding:0px; border:none;}
+.openimg-left{float:left; margin:10px 20px 6px 6px; padding:0px; border:none;}
+.openimg img, .openimg-left img{margin-left:auto; margin-right:auto;}
+.openimg p, .openimg-left p{text-align:center; font-size:0.9em; font-weight:600; color:#5078b4; padding:4px 0px 4px 0px; margin:0px;}
+.articleimg{float:right; margin:0px 6px 0px 12px; padding:0px; border:1px solid #ccc; background-color:#fafafa;}
+.articleimg img{margin-left:auto; margin-right:auto; border:1px solid #fff;}
+.articleimg p{text-align:center; font-size:1.1em; font-weight:600; color:#333; border-top:1px solid #ccc; padding:4px 0px 2px 0px; margin:0px;}
+.table2 td{background:#fff; border:none;}
+.table2 td p{text-align:justify; color:#000; padding:4px 10px 4px 10px;}
+.table2 td img{margin:6px;}
+.black{color:#000000;}
+.white{color:#ffffff;}
+.prev_next{margin:15px 0px 15px 0px; text-align:center;}
+.linktous{font-size:0.9em;}
+#video_container{width:580px; height:335px; border:10px solid #eeeeee; margin-left:auto; margin-right:auto; margin-bottom:40px;}
+div.wpcf7-mail-sent-ok{background-color:#dff0d8;}
