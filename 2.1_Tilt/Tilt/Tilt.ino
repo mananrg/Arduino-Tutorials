@@ -1,26 +1,15 @@
-#define SENSOR_PIN 2
-#define LED1 10
+int redled=10;
 
 void setup()
 {
-
-  pinMode(SENSOR_PIN, INPUT_PULLUP);
-
-
-  pinMode(LED1, OUTPUT);
-}
+  pinMode(redled,OUTPUT);
+  }
 
 void loop()
 {
-
-  if (digitalRead(SENSOR_PIN) == LOW)
-  {
+  digitalWrite(10,HIGH);
+  delay(500);
+  digitalWrite(10,LOW);
+  delay(10000);
   
-    digitalWrite(LED1, HIGH);
   }
-  else
-  {
-  
-    digitalWrite(LED1, LOW);
-  }
-}
