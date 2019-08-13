@@ -1,15 +1,25 @@
-int redled=10;
-
+int redled=2;
+int tilt=10;
 void setup()
 {
   pinMode(redled,OUTPUT);
+  pinMode(tilt,INPUT);
+  Serial.begin(9600);
   }
 
 void loop()
 {
-  digitalWrite(10,HIGH);
-  delay(500);
-  digitalWrite(10,LOW);
-  delay(10000);
+ if(digitalRead(tilt))
+ {
+  digitalWrite(redled,HIGH);
+  Serial.println("LOW");
+  delay(100);
   
   }
+ else
+ {
+  digitalWrite(redled,LOW);
+  Serial.println("HIGH");
+  delay(100);
+  }
+    }
